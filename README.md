@@ -3,7 +3,7 @@ Bookmark your favorite DJ sets in SoundCloud
 
 ## Installation
 
-##### Setting up the server:
+#### Setting up the server:
 1. Clone the repo to your local machine.
 2. cd to the repo and run the following commands:
 `npm install`
@@ -13,7 +13,7 @@ Bookmark your favorite DJ sets in SoundCloud
 5. To run the server type:
 `npm start`
 
-##### Installing the Chrome Extension:
+#### Installing the Chrome Extension:
 1. Fire up Google Chrome
 2. In the url, type in <chrome://extensions>
 3. Enable Developer mode checkbox, at the right-top corner.
