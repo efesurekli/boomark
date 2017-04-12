@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>BooMark</title>
+  </head>
+    <body>
+      <div class="container">
+        <h3>Boomark It</h3> 
+        <button id="addBookmark">  add Bookmark  </button>
+        <button id="linkToHome">  my list </button>
+        <h5 id="feedback"> 1</h5>
+      </div>
+      
+      <style type="text/css"> 
+        body {
+          margin: 5px;
+          font-family: Helvetica, Sans-Serif;
+          background-color: #313233;
+          color: #1cd0ef;
+          width: 100px;
+        }
+        button {
+         margin: 2px;
+         margin-top: 5px;
+         background-color: #313233;
+         border: solid;
+         border-width: 1px;
+         color: #1cd0ef;
+         width: 100%;
+         border-radius: 10px;
+        }
+        button:focus {outline:0; box-shadow: 0 0 2pt 1pt #1cd0ef; }
+        button:hover { color: white }
+        h3 {
+          font-style: italic;
+          color: #edbe61;
+          margin-bottom: 5px;
+          text-align: center;
+        }
+        #feedback {
+          display: none;
+          color: #edbe61;
+          text-align: center;
+        }
+      </style>
+      <script src="popup.js"></script>
+    </body>
+  </html>

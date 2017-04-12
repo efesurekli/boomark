@@ -1,0 +1,32 @@
+{
+  "name": "boomark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exp.js",
+  "scripts": {
+    "start": "webpack -p && node app.js",
+    "test": "mocha tests/integration.js",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "efe",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "react": "^15.5.3",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.5.3",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}

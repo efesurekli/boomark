@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "boomark",
+  "description": "bookmark your favorite dj sets", 
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["https://soundcloud.com/*"],
+    "js": ["background.js"],
+    "persistent": true
+  }],
+  "commands": {
+    "bookmarkSong": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      },
+      "description": "Bookmark currently playing song"
+    }
+  },
+  "browser_action": {
+    "default_icon": "boomark.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
+
+

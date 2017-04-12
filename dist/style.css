@@ -1,0 +1,25 @@
+
+/*animations*/
+.media {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.media:hover {
+  transform: scale(1.01);
+}
+
+.media-heading {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.media-heading:hover {
+  cursor: pointer;
+  text-underline-position: under;
+  text-decoration: underline;
+}
